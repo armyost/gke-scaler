@@ -21,7 +21,7 @@ def scale_out_function(argument):
 
     # Initialize request argument(s)
     request_val = container_v1.SetNodePoolSizeRequest(
-        name="projects/sample-prj-440709/locations/us-central1-c/clusters/my-first-cluster-1/nodePools/default-pool",
+        name="projects/sample-prj-XXXX/locations/us-central1-c/clusters/my-first-cluster-1/nodePools/default-pool",
         node_count=val_scale_out
     )
     
@@ -41,7 +41,7 @@ def scale_in_function(argument):
 
     # Initialize request argument(s)
     request_val = container_v1.SetNodePoolSizeRequest(
-        name="projects/sample-prj-440709/locations/us-central1-c/clusters/my-first-cluster-1/nodePools/default-pool",
+        name="projects/sample-prj-XXXX/locations/us-central1-c/clusters/my-first-cluster-1/nodePools/default-pool",
         node_count=val_scale_in
     )
     
